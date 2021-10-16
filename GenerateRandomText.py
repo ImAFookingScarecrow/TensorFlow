@@ -12,3 +12,5 @@ for i in range(0, numbers):
     for i in range(0, digits):
         string = string + str(random.randint(0, 1))
     filee.write(string + '\n')
+
+filee.close()
